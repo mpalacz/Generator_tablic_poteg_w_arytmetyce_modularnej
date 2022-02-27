@@ -1,7 +1,7 @@
 ﻿
 namespace Generator_tablic_poteg_w_arytmetyce_modularnej
 {
-    partial class fInput
+    partial class frmInput
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -42,17 +42,19 @@ namespace Generator_tablic_poteg_w_arytmetyce_modularnej
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(108, 9);
+            this.label1.Location = new System.Drawing.Point(144, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 13);
+            this.label1.Size = new System.Drawing.Size(257, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Podaj liczbę naturalną większą od zera:";
             // 
             // nudModulo
             // 
-            this.nudModulo.Location = new System.Drawing.Point(123, 46);
+            this.nudModulo.Location = new System.Drawing.Point(164, 57);
+            this.nudModulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nudModulo.Name = "nudModulo";
-            this.nudModulo.Size = new System.Drawing.Size(158, 20);
+            this.nudModulo.Size = new System.Drawing.Size(211, 22);
             this.nudModulo.TabIndex = 1;
             this.nudModulo.Value = new decimal(new int[] {
             1,
@@ -62,9 +64,10 @@ namespace Generator_tablic_poteg_w_arytmetyce_modularnej
             // 
             // btnGenerate
             // 
-            this.btnGenerate.Location = new System.Drawing.Point(12, 72);
+            this.btnGenerate.Location = new System.Drawing.Point(16, 89);
+            this.btnGenerate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(75, 23);
+            this.btnGenerate.Size = new System.Drawing.Size(100, 28);
             this.btnGenerate.TabIndex = 2;
             this.btnGenerate.Text = "Generuj";
             this.btnGenerate.UseVisualStyleBackColor = true;
@@ -73,9 +76,10 @@ namespace Generator_tablic_poteg_w_arytmetyce_modularnej
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(309, 71);
+            this.btnCancel.Location = new System.Drawing.Point(412, 87);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(100, 28);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Anuluj";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -85,19 +89,20 @@ namespace Generator_tablic_poteg_w_arytmetyce_modularnej
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // fInput
+            // frmInput
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(396, 106);
+            this.ClientSize = new System.Drawing.Size(528, 130);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.nudModulo);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
-            this.Name = "fInput";
+            this.Name = "frmInput";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Generator tablicy potęg w arytmetyce modularnej";
             ((System.ComponentModel.ISupportInitialize)(this.nudModulo)).EndInit();
