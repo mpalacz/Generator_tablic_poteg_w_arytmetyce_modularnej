@@ -16,7 +16,7 @@ namespace Generator_tablic_poteg_w_arytmetyce_modularnej
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new fInput());
         }
     }
 }

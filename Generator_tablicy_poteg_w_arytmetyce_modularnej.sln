@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator_tablic_poteg_w_arytmetyce_modularnej", "Generator_tablic_poteg_w_arytmetyce_modularnej.csproj", "{F59AEEF0-35FB-41F8-AEE4-9D9F55722B79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator_tablicy_poteg_w_arytmetyce_modularnej", "Generator_tablicy_poteg_w_arytmetyce_modularnej.csproj", "{F59AEEF0-35FB-41F8-AEE4-9D9F55722B79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

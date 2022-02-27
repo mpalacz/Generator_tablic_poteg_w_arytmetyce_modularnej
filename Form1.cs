@@ -10,11 +10,29 @@ using System.Windows.Forms;
 
 namespace Generator_tablic_poteg_w_arytmetyce_modularnej
 {
-    public partial class Form1 : Form
+    public partial class fInput : Form
     {
-        public Form1()
+        public int modulo; // value for calculation
+        public fInput()
         {
             InitializeComponent();
+        }
+        // cancel button funcionality
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        // generate button funcionality
+        private void btnGenerate_Click(object sender, EventArgs e)
+        {
+            modulo = (int)nudModulo.Value; // setting modulo var value based on user's input
+            if (modulo > 0) // checking correctness of the inputed value
+                Close(); //closing current form
+            else
+            {
+                errorProvider1.SetError(nudModulo, "Podano liczbę mniejszą od 1"); // displaying error to the user
+                nudModulo.Value = 1; // setting default value in nudModulo
+            }
         }
     }
 }
